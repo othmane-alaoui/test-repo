@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+  	<style type="text/css">
+  		.maint{
+  			font-size: 100px;
+  			color: white;
+  			position: absolute;
+  			margin-left: 25%;
+  			margin-top: 15%;
+  		}
+  		.mainbtn{
+  			border: 3px solid black;
+  			border-radius: 5px;
+  			background-color: white;
+  			color: rgba(0,0,0,0.8);
+  			margin-top: 70px;
+  			font-size: 20px;
+  			padding: 25px;
+  			padding-left: 40px;
+  			padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+  			position: absolute;
+  			margin-top: 5%;
+  			margin-left: 43%;
+        height: 30px;
+  		}
+  		body{
+  			margin: 0;
+  			padding: 0;
+  			background-color: rgba(0,0,0,0.9);
+   		}
+		.verticalhorizontal {
+			display: table-cell;
+			height: 300px;
+			text-align: center;
+			width: 300px;
+			vertical-align: middle;
+		}
+		.visual {
+			width: 872px;
+			height: 311px;
+			margin: 80px auto 20px;
+			display: block;
+		}
+
+		
+  	</style>
+
+</head>
+<body style="background-color: white">
+		<div class="visuel"></div>
+	
+		<div>
+			<img class="visual" src="/static/visuels/masky_logo.jpg" alt="visual image" />
+		</div>
+
+		<a href="{{url_for('Camera') }}">
+			<div class="mainbtn">Test AI Model</span></div>
+		</a>
+
+</div>
+	
+
+</body>
+
+</html>
