@@ -1,3 +1,3 @@
-cd C:/Users/JonathanPacifico/Documents/FlaskMaskyApp/
+cd C:\Users\OthmaneAlaouiM'Daghr\Desktop\test
 start microsoft-edge:http://localhost:8088/
-python app.py
+python3 app.py
